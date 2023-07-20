@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: #71266E;
+    font-family: serif;
+}
+h1#principal {
+    text-align: center;
+    background-color: #390036;
+    color: #AA71A7;
+}
+h1 {
+    background-color: #550E52;
+    color: #AA71A7;
+}
+.basico {
+    background-color: #550E52;
+    color: #aafff4;
+}
+.inter {
+    background-color: #550E52;
+    color: #fdffa2;
+}
+.avan {
+    background-color: #550E52;
+    color: #ffa2a2;
+}
+p {
+    background-color: #8D478A;
+}

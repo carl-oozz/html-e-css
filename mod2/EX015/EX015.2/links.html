@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+                    background-color: #ffffff;
+                    font-family: serif;
+                }
+                a{
+                                    text-decoration: none;
+                                }
+        a#spfc{
+                   color: #ff0000;
+                }
+                a#bfr{
+                    color: #000000;
+                }
+                a#cec{
+                    color: #0003aa;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+                a::after{
+                    content: ' (link)';
+                    text-decoration: none;
+                    font-weight: normal;
+                    color: #d1d1d1;
+                }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/São_Paulo_Futebol_Clube" id="spfc" target="_blank">História do São Paulo</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Botafogo_de_Futebol_e_Regatas" id="bfr" target="_blank">História do Botafogo</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Cruzeiro_Esporte_Clube" id="cec" target="_blank">História do Cruzeiro</a></li>
+    </ul>
+</body>
+</html>

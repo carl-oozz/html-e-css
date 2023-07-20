@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinãmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/pequeno.png">
+        <source media="(max-width: 1000px)" srcset="imagens/medio.png">
+        <img src="imagens/grande.png" alt="irina-blok">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="audio/HINO DO SÃO PAULO (128 kbps).mp3" controls autoplay loop></audio>
+    <h1>Reprodução de vídeos locais</h1>
+    <p>Você também pode reproduzir o vídeo local aqui:</p>
+    <video controls width="315" height="560">
+        <source src="video/pexels-anna-tarazevich-7008042 (1080p).mp4" type="video/mp4">
+
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qi2rByJed-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/97005907?h=80e3c58bd8&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
